@@ -36,7 +36,7 @@
 <h3 align="center">nest-cli</h3>
 
   <p align="center">
-    Distrobox/Toolbox implementation of my custom Alpine development environment built using the [nest](https://github.com/n3ddu8/nest) instruction set.
+    Distrobox implementation of my custom Alpine development environment built using the [nest](https://github.com/n3ddu8/nest) instruction set.
     <br />
     <br />
     <a href="https://github.com/n3ddu8/nest-cli/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
@@ -107,12 +107,6 @@ For Distrobox:
 ```shell
 distrobox create -i ghcr.io/n3ddu8/nest-cli -n nest
 distrobox enter nest
-```
-
-For Toolbox:
-```shell
-toolbox create -i ghcr.io/n3ddu8/nest-cli -c nest
-toolbox enter nest
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
